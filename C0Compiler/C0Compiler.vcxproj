@@ -146,6 +146,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Generator.cpp" />
+    <ClCompile Include="GlobalVar.cpp" />
+    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Midcode.cpp" />
+    <ClCompile Include="Optimizer.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Table.cpp" />
+    <ClCompile Include="Titem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="Generator.h" />
+    <ClInclude Include="GlobalVar.h" />
+    <ClInclude Include="Lexer.h" />
+    <ClInclude Include="Midcode.h" />
+    <ClInclude Include="Optimizer.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="Titem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
